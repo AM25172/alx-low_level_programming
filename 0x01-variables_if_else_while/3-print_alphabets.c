@@ -3,7 +3,7 @@
 /**
  *  main - Entry point
  *
- *  Description: print alphabet in lowercase then in uppercasie
+ *  Description: print alphabet in lowercase then in uppercase
  *
  *  Return: Always O (Success)
 */
@@ -24,6 +24,6 @@ int main(void)
 		CH++;
 	}
 	putchar('\n');
-i
+
 	return (0);
 }
