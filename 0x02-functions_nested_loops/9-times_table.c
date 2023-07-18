@@ -21,19 +21,20 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
+
 			prod = num * mult;
-			/**
+
+			/*
 			 * put space if product is a single number
 			 * place the first digit if its two numbers
 			*/
-		if (prod <= 9)
-		 _putchar(' ');
-		else
-		_putchar((prod / 10) + 48);
-		_putchar((prod % 10) + 48);
+if (prod <= 9)
+	 _putchar(' ');
+else
+	_putchar((prod / 10) + 48);
+	_putchar((prod % 10) + 48);
 		}
-
-			_putchar('\n');
+		_putchar('\n');
 	}
 
 }
